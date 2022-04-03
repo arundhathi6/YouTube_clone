@@ -1,0 +1,76 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="./index.css" />
+  <script src="https://kit.fontawesome.com/34511ecd2d.js" crossorigin="anonymous"></script>
+  
+  <body>
+    <nav id="nav_bar">
+        <!-- <button></button> -->
+        <div id="imgur_logo"><img width="100%" height="100%" src = "data:image/png;base64,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"/></div>
+        <button id = "new_post_btn">
+          <span><i id = "new_plus" class="fas fa-plus-square"></i>
+          </span><div id = "new_post">New post</div>
+        </button>
+        <input type="text" placeholder="Images, #tag, @users, oh my!" /><span class="search_btn"><i class="fas fa-search"></i></span>
+        
+        <button id = "go_ad_btn">
+          <div id = "ad_free">Go Ad-Free</div>
+        </button>
+  
+        <div id = "font_icons">
+          <i class="fab fa-angular"></i>
+          <i class="far fa-comment-alt"></i>
+          <i class="far fa-bell"></i>
+  
+  
+        </div>
+  
+        <div id = "name_box">
+          <!-- To show name -->
+          <p id="signup" onclick="signupFn()">SignUp</p>
+         </div>
+         <div id = "profile_box">
+          <!-- To show profile_pic-->
+          <!-- <img id="" src="" alt=""> -->
+          <p id="profile_img"></p>
+         </div>
+    
+      </nav>
+    <input id="name" type="text" placeholder="Name" /><br>
+    <input id="email"
+      type="email"
+      placeholder="Email"
+    />
+    <br>
+    <input id="password" placeholder="password" type="password" />
+    <br>
+    <input id="img1" type="file" />
+    <br>
+
+    <button onclick="signupFn()" type="submit">SignUp</button>
+  </body>
+</html>
+<script>
+function signupFn(){
+let name=document.getElementById("name").value
+let email=document.getElementById("email").value
+let password=document.getElementById("password").value
+let img1=document.getElementById("img1").value
+
+let data={
+    name:name,
+    email:email,
+    password:password,
+    img1:img1
+}
+
+localStorage.setItem("data",JSON.stringify(data))
+window.location.href="index.html"
+}
+</script> -->
