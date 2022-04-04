@@ -98,7 +98,4 @@ function div1Fn(el) {
     window.location.href="display.html";
 }
 
-function signupFn() {
-    window.location.href="signup.html";
-}
 imgurFn();
